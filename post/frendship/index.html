@@ -9,6 +9,7 @@
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
+    <link rel="stylesheet" href="/media/css/post.css">
     <link rel="stylesheet" href="/media/live2d/css/live2d.css" />
     
 </head>
@@ -44,60 +45,47 @@
     </ul>
 </div>
 
-<div class="mdui-container">
-    <div class="mdui-row">
-        <div class="mdui-col-md-10 mdui-col-offset-md-1 ">
-            
-            
-                <div class="mdui-typo-display-1 mdui-m-b-2 mdui-m-l-1">
-                    <div class="mdui-row">
-                        <div class="mdui-col-xs-12">2021</div>
-                    </div>
-                    <div class="mdui-row">
-                        
-                        
-                            <div class="mdui-col-xs-6 mdui-p-a-1">
-                                <div class="mdui-card">
-                                    <div class="mdui-card-media">
-                                        <img width=536px height=300px src=" https://lostpear.github.io/post-images/frendship.jpg"/>
-                                        <div class="mdui-card-primary">
-                                            <div class="mdui-card-primary-title">Frendship</div>
-                                            <div class="mdui-card-primary-subtitle">2021-07-17</div>
-                                        </div>
-                                    </div>
-                                    <div class="mdui-card-actions" style="float:right;">
-                                        <a href="https://lostpear.github.io/post/frendship/" class="mdui-btn mdui-color-theme-accent mdui-ripple">点击查看</a>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                        
-                        
-                            <div class="mdui-col-xs-6 mdui-p-a-1">
-                                <div class="mdui-card">
-                                    <div class="mdui-card-media">
-                                        <img width=536px height=300px src=" https://i.loli.net/2021/07/17/7RSvOa5njgWiKo3.jpg"/>
-                                        <div class="mdui-card-primary">
-                                            <div class="mdui-card-primary-title">欢迎！</div>
-                                            <div class="mdui-card-primary-subtitle">2021-07-17</div>
-                                        </div>
-                                    </div>
-                                    <div class="mdui-card-actions" style="float:right;">
-                                        <a href="https://lostpear.github.io/post/hello/" class="mdui-btn mdui-color-theme-accent mdui-ripple">点击查看</a>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                        
-                    </div>
+<div id="content" class="site-content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            <article id="post-1270" class="post-1270 post type-post status-publish format-standard hentry category-90 category-129 tag-149">
+                <header class="entry-header">
+                    <h1 class="entry-title">Frendship</h1>
+                    <p class="entry-census">发布于 2021-07-17</p>
+                    <hr>
+                </header>
+                <div class="neko">
+                    <p>说实话，我感觉自从我转学过后，我和原来的同学就几乎没什么交流了，但在这之前，我们关系其实都挺不错的。<br>
+不只是转学，当小学升初中，初中升高中，高中升到大学时，除非你还和一些同学在一块，否则你和以前伙伴的交流肯定会少很多。<br>
+我感觉很多人也和我一样，经历着交际关系的变化，在这之前我们的交际关系似乎都是靠“学校”来建立起来的，当我们脱离了这个纽带，我们可能就很难说上一句话。不知道是不是我自己的原因，我很少去参加集体活动，最近一次还是在两年前中考完，十几个人一起去吃饭，还去游戏厅打游戏。我也曾想过去邀请一些人聚一聚啊什么的，但是最后还是因为自己的部分社恐而就此作罢。<br>
+为什么会这样？可能因为学业关系接触的时间少了，也可能是由于自己的关系，但是接触少了，感情淡了这一点是不争的事实。<br>
+我写这个又想说什么......大概是去纪念我那份若隐若现的“友情”吧。</p>
+
                 </div>
-            
+            </article>
+        </main>
+    </div>
+    <div class="doc-footer-nav mdui-color-theme">
+        <div class="mdui-container">
+            <div class="mdui-row">
+                
+                <div class="mdui-col-xs-2 mdui-col-sm-6 doc-footer-nav-left"></div>
+                
+                
+                <a href="https://lostpear.github.io/post/hello/" class="mdui-ripple mdui-color-theme mdui-col-xs-10 mdui-col-sm-6 doc-footer-nav-right">
+                    <div class="doc-footer-nav-text">
+                        <i class="mdui-icon material-icons">arrow_forward</i>
+                        <span class="doc-footer-nav-direction">下一篇文章</span>
+                        <div class="doc-footer-nav-chapter">欢迎！</div>
+                    </div>
+                </a>
+                
+            </div>
         </div>
     </div>
-    <div class="mdui-row">
-        
-
-    </div>
+    <br>
+    
+    <div class="comment"></div>
 </div>
 <footer class="mdui-container footer ">
     <div class="head_card-offset"></div>
@@ -149,4 +137,29 @@
 
 </body>
 <script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+    $('.comment').bind('DOMNodeInserted',()=>{
+        $('.comment').unbind()
+
+        $('.vbtn').addClass(' mdui-btn mdui-color-theme-accent mdui-ripple')
+    })
+
+    let valine = new Valine({
+        el: '.comment',
+        
+        app_id: 'J4t882NsvQne7dkXMuK86qVr-9Nh9j0Va',
+        
+        
+        app_key: 'g6khw92Gxe9g4ydzCMWhFeOr',
+        
+        
+        placeholder: '说点什么吧！',
+        
+        path: window.location.pathname,
+        pageSize: 30,
+        avatar:'mm',
+        notify:true
+    })
+</script>
 </html>
