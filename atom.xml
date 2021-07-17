@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://lostpear.github.io</id>
     <title>Bassline!</title>
-    <updated>2021-07-17T14:34:12.659Z</updated>
+    <updated>2021-07-17T14:44:16.565Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://lostpear.github.io"/>
     <link rel="self" href="https://lostpear.github.io/atom.xml"/>
@@ -16,13 +16,6 @@
         <link href="https://lostpear.github.io/post/frendship/">
         </link>
         <updated>2021-07-17T14:05:43.000Z</updated>
-        <content type="html"><![CDATA[<p>说实话，我感觉自从我转学过后，我和原来的同学就几乎没什么交流了，但在这之前，我们关系其实都挺不错的。<br>
-不只是转学，当小学升初中，初中升高中，高中升到大学时，除非你还和一些同学在一块，否则你和以前伙伴的交流肯定会少很多。<br>
-我感觉很多人也和我一样，经历着交际关系的变化，在这之前我们的交际关系似乎都是靠“学校”来建立起来的，当我们脱离了这个纽带，我们可能就很难说上一句话。不知道是不是我自己的原因，我很少去参加集体活动，最近一次还是在两年前中考完，十几个人一起去吃饭，还去游戏厅打游戏。我也曾想过去邀请一些人聚一聚啊什么的，但是最后还是因为自己的部分社恐而就此作罢。<br>
-为什么会这样？可能因为学业关系接触的时间少了，也可能是由于自己的关系，但是接触少了，感情淡了这一点是不争的事实。<br>
-我写这个又想说什么......大概是去纪念我那份若隐若现的“友情”吧。<br>
-（我都说了点什么hh）</p>
-]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[欢迎！]]></title>
@@ -30,8 +23,5 @@
         <link href="https://lostpear.github.io/post/hello/">
         </link>
         <updated>2021-07-17T05:09:48.000Z</updated>
-        <content type="html"><![CDATA[<p>欢迎来到我的博客！Hope you have a nice time here~<br>
-这篇文章也是一个留言板，你可以在下方留言。</p>
-]]></content>
     </entry>
 </feed>
